@@ -7,7 +7,7 @@ import os
 
 os.makedirs('plots',exist_ok=True)
 
-sr, data=wavfile.read(r'C:\Users\91975\OneDrive\Documents\GitHub\ERC_assignment\Q3\corrupted.wav')
+sr, data=wavfile.read(r'C:\Users\91975\OneDrive\Documents\GitHub\ERC_assignment_25b3916\TechQuestions\Q3\corrupted.wav')
 
 if data.ndim>1:
     data = data[:,0]
